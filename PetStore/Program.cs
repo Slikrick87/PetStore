@@ -2,22 +2,42 @@
 using System.Diagnostics.Contracts;
 using PetStore;
 
-Console.WriteLine("Press 1 to add a product");
-Console.WriteLine("Type 'exit' to quit");
-string userInput = Console.ReadLine();
-
-while (userInput.ToLower() != "exit")
+namespace PetStoreProgram
 {
-    if (userInput.ToLower() == "1")
+
+    class Program
     {
-        Product.DogLeash dogleash = new Product.DogLeash
+        Console.WriteLine("Press 1 to add a product");
+        Console.WriteLine("Type 'exit' to quit");
+        string userInput = Console.ReadLine();
+
+    while (userInput.ToLower() != "exit")
+    {
+        if (userInput.ToLower() == "1")
         {
-            Material = Console.ReadLine()
-        };
+            Dogleash dogleash = new Dogleash();
+        Console.Write("Name:");
+            dogleash.Name = Console.ReadLine();
+            Console.Write("Price:");
+            dogleash.Price = int.Parse(Console.ReadLine());
+            Console.Write("Quantity");
+            dogleash.Quantity = int.Parse(Console.ReadLine());
+            Console.Write("Description:");
+            dogleash.Quantity = Console.ReadLine();
+            Console.Write("Length in inches:");
+            dogleash.LengthInches = int.Parse(Console.ReadLine());
+            Console.Write("Material:");
+            dogleash.Material = Console.ReadLine();
+            Console.WriteLine(JsonSerializer.Serialize(dogleash));
+        
+        }
+        else if (userInput.ToLOwer() == "exit")
+        {
+            break;
+        }
+        Console.WriteLine("Press 1 to add a product");
+        Console.WriteLine("Type 'exit' to quit");
+        userInput = Console.ReadLine();
     }
-    else 
-    Console.WriteLine("Press 1 to add a product");
-    Console.WriteLine("Type 'exit' to quit");
-    userInput = Console.ReadLine();
 }
- 
+}
