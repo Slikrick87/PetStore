@@ -18,24 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\CodeYou\\SoftwareDevModule\\PetStore\\PetStore\\PetStore\\Product.cs",
-              "RelativeDocumentMoniker": "Product.cs",
-              "ToolTip": "C:\\CodeYou\\SoftwareDevModule\\PetStore\\PetStore\\PetStore\\Product.cs",
-              "RelativeToolTip": "Product.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T00:31:57.47Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -45,9 +32,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\CodeYou\\SoftwareDevModule\\PetStore\\PetStore\\PetStore\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T00:27:05.794Z",
+              "WhenOpened": "2024-10-18T20:55:09.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\CodeYou\\SoftwareDevModule\\PetStore\\PetStore\\PetStore\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "C:\\CodeYou\\SoftwareDevModule\\PetStore\\PetStore\\PetStore\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T20:55:06.38Z",
               "EditorCaption": ""
             }
           ]

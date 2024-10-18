@@ -31,7 +31,7 @@ namespace PetStoreProgram
             Console.WriteLine(JsonSerializer.Serialize(dogleash));
         
         }
-        else if (userInput.ToLOwer() == "exit")
+        else if (userInput.ToLower() == "exit")
         {
             break;
         }
